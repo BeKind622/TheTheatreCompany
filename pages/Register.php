@@ -4,47 +4,226 @@
 ?>
 <!-- component -->
 <!-- Create by joker banny -->
-<div class="bg-indigo-100 flex justify-center items-center mt-6">
-	<div class="lg:w-2/5 md:w-1/2 w-2/3">
-		<form class="bg-white p-10 rounded-lg shadow-lg min-w-full" action="../config/register.php" method="post">
-			<h1 class="text-center text-2xl mb-6 text-gray-600 font-bold font-sans">Student Register</h1>
-			<div>
-				<label class="text-gray-800 font-semibold block my-3 text-md" for="student_num">Student Number</label>
-				<input class="w-full bg-gray-100 px-4 py-2 rounded-lg focus:outline-none" type="tel" name="student_num" id="student_num" placeholder="Student Number" />
+<div
+      class="min-h-screen flex flex-col items-center justify-center bg-gray-100"
+    >
+      <div
+        class="
+          flex flex-col
+          bg-white
+          shadow-md
+          px-4
+          sm:px-6
+          md:px-8
+          lg:px-10
+          py-8
+          rounded-3xl
+          w-50
+          max-w-md
+        "
+      >
+        <div class="font-medium self-center text-xl sm:text-3xl text-gray-800">
+          Join us Now
+        </div>
+        <div class="mt-4 self-center text-xl sm:text-sm text-gray-800">
+          Enter your credentials to get access account
+        </div>
+
+        <div class="mt-10">
+          <form action="#">
+            <div class="flex flex-col mb-5">
+              <label
+                for="email"
+                class="mb-1 text-xs tracking-wide text-gray-600"
+                >Name:</label
+              >
+              <div class="relative">
+                <div
+                  class="
+                    inline-flex
+                    items-center
+                    justify-center
+                    absolute
+                    left-0
+                    top-0
+                    h-full
+                    w-10
+                    text-gray-400
+                  "
+                >
+                  <i class="fas fa-user text-blue-500"></i>
+                </div>
+
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  class="
+                    text-sm
+                    placeholder-gray-500
+                    pl-10
+                    pr-4
+                    rounded-2xl
+                    border border-gray-400
+                    w-full
+                    py-2
+                    focus:outline-none focus:border-blue-400
+                  "
+                  placeholder="Enter your name"
+                />
+              </div>
             </div>
-            <div>
-				<label class="text-gray-800 font-semibold block my-3 text-md" for="firstname">Firstname</label>
-				<input class="w-full bg-gray-100 px-4 py-2 rounded-lg focus:outline-none" type="text" name="firstname" id="firstname" placeholder="firstname" />
+            <div class="flex flex-col mb-5">
+              <label
+                for="email"
+                class="mb-1 text-xs tracking-wide text-gray-600"
+                >E-Mail Address:</label
+              >
+              <div class="relative">
+                <div
+                  class="
+                    inline-flex
+                    items-center
+                    justify-center
+                    absolute
+                    left-0
+                    top-0
+                    h-full
+                    w-10
+                    text-gray-400
+                  "
+                >
+                  <i class="fas fa-at text-blue-500"></i>
+                </div>
+
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  class="
+                    text-sm
+                    placeholder-gray-500
+                    pl-10
+                    pr-4
+                    rounded-2xl
+                    border border-gray-400
+                    w-full
+                    py-2
+                    focus:outline-none focus:border-blue-400
+                  "
+                  placeholder="Enter your email"
+                />
+              </div>
             </div>
-				<div>
-					<label class="text-gray-800 font-semibold block my-3 text-md" for="surname">Surname</label>
-					<input class="w-full bg-gray-100 px-4 py-2 rounded-lg focus:outline-none" type="text" name="surname" id="surname" placeholder="surname" />
+            <div class="flex flex-col mb-6">
+              <label
+                for="password"
+                class="mb-1 text-xs sm:text-sm tracking-wide text-gray-600"
+                >Password:</label
+              >
+              <div class="relative">
+                <div
+                  class="
+                    inline-flex
+                    items-center
+                    justify-center
+                    absolute
+                    left-0
+                    top-0
+                    h-full
+                    w-10
+                    text-gray-400
+                  "
+                >
+                  <span>
+                    <i class="fas fa-lock text-blue-500"></i>
+                  </span>
+                </div>
+
+                <input
+                  id="password"
+                  type="password"
+                  name="password"
+                  class="
+                    text-sm
+                    placeholder-gray-500
+                    pl-10
+                    pr-4
+                    rounded-2xl
+                    border border-gray-400
+                    w-full
+                    py-2
+                    focus:outline-none focus:border-blue-400
+                  "
+                  placeholder="Enter your password"
+                />
+              </div>
+            </div>
+
+            <div class="flex w-full">
+              <button
+                type="submit"
+                class="
+                  flex
+                  mt-2
+                  items-center
+                  justify-center
+                  focus:outline-none
+                  text-white text-sm
+                  sm:text-base
+                  bg-blue-500
+                  hover:bg-blue-600
+                  rounded-2xl
+                  py-2
+                  w-full
+                  transition
+                  duration-150
+                  ease-in
+                "
+              >
+                <span class="mr-2 uppercase">Sign Up</span>
+                <span>
+                  <svg
+                    class="h-6 w-6"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
-					<div>
-						<label class="text-gray-800 font-semibold block my-3 text-md" for="email">Email</label>
-						<input class="w-full bg-gray-100 px-4 py-2 rounded-lg focus:outline-none" type="email" name="email" id="email" placeholder="email" />
+      <div class="flex justify-center items-center mt-6">
+        <a
+          href="#"
+          target="_blank"
+          class="
+            inline-flex
+            items-center
+            text-gray-700
+            font-medium
+            text-xs text-center
+          "
+        >
+          <span class="ml-2"
+            >You have an account?
+            <a
+              href="#"
+              class="text-xs ml-2 text-blue-500 font-semibold"
+              >Login here</a
+            ></span
+          >
+        </a>
       </div>
-      <div>
-						<label class="text-gray-800 font-semibold block my-3 text-md" for="dob">Date of Birth</label>
-						<input class="w-full bg-gray-100 px-4 py-2 rounded-lg focus:outline-none" type="date" name="dob" id="dob" />
-      </div>
-      <div>
-						<label class="text-gray-800 font-semibold block my-3 text-md" for="address">Address</label>
-						<input class="w-full bg-gray-100 px-4 py-2 rounded-lg focus:outline-none" type="text" name="address" id="address" placeholder="address" />
-      </div>
-      <div>
-						<label class="text-gray-800 font-semibold block my-3 text-md" for="postcode">Postcode</label>
-						<input class="w-full bg-gray-100 px-4 py-2 rounded-lg focus:outline-none" type="text" name="postcode" id="postcode" placeholder="postcode" />
-      </div>
-      <div>
-						<label class="text-gray-800 font-semibold block my-3 text-md" for="password">Password</label>
-						<input class="w-full bg-gray-100 px-4 py-2 rounded-lg focus:outline-none" type="text" name="psw" id="password" placeholder="password" />
-      </div>
-					
-            <button type="submit" class="w-full mt-6 bg-indigo-600 rounded-lg px-4 py-2 text-lg text-white tracking-wide font-semibold font-sans">Register</button>
-            <!-- <button type="submit" class="w-full mt-6 mb-3 bg-indigo-100 rounded-lg px-4 py-2 text-lg text-gray-800 tracking-wide font-semibold font-sans">Login</button> -->
-		</form>
-	</div>
-</div>
-<
+    </div>
+
 <?php include '../partials/footer.php'; ?>
