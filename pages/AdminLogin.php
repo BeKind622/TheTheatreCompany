@@ -9,7 +9,7 @@
     <div class="text-white">
       <div class="mb-8 flex flex-col items-center">
         <img src="https://www.logo.wine/a/logo/Instagram/Instagram-Glyph-Color-Logo.wine.svg" width="150" alt="" srcset="" />
-        <h1 class="mb-2 text-2xl">Student Login</h1>
+        <h1 class="mb-2 text-2xl">Admin Login</h1>
         <span class="text-gray-300">Enter Login Details</span>
       </div>
 
@@ -21,12 +21,12 @@
       <?php endif; ?>
 
       <form action="config/authenticate_admin.php" method="post">
-        <div class="mb-4 text-lg">
-          <input class="rounded-3xl border-none bg-yellow-400 bg-opacity-50 px-6 py-2 text-center text-inherit placeholder-slate-200 shadow-lg outline-none backdrop-blur-md" type="text" name="username" placeholder="20145874" />
+      <div class="mb-4 text-lg">
+          <input class="rounded-3xl border-none bg-yellow-400 bg-opacity-50 px-6 py-2 text-center text-inherit placeholder-slate-200 shadow-lg outline-none backdrop-blur-md" type="text" name="student_num" placeholder="20145874" />
         </div>
 
         <div class="mb-4 text-lg">
-          <input class="rounded-3xl border-none bg-yellow-400 bg-opacity-50 px-6 py-2 text-center text-inherit placeholder-slate-200 shadow-lg outline-none backdrop-blur-md" type="password" name="password" placeholder="*********" />
+          <input class="rounded-3xl border-none bg-yellow-400 bg-opacity-50 px-6 py-2 text-center text-inherit placeholder-slate-200 shadow-lg outline-none backdrop-blur-md" type="password" name="psw" placeholder="*********" />
         </div>
 
         <div class="mt-8 flex justify-center text-lg text-black">

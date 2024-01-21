@@ -1,0 +1,16 @@
+<?php elseif (isset($_SESSION['student_num'])) : ?> 
+                <a href="<?= BASE_PATH ?>s/dashboard">Dashboard</a>
+                <a href="<?= BASE_PATH ?>s/course">My Course</a>
+                <a href="<?= BASE_PATH ?>s/account"> My Details</a>
+                <a href="<?= BASE_PATH ?>news"> News</a>
+                <a href="<?= BASE_PATH ?>events"> Events</a>
+                <a href="<?= BASE_PATH ?>logout" class="flex text-gray-600 hover:text-blue-500 cursor-pointer transition-colors duration-300" href="">Logout </a>
+              <?php elseif (isset($_SESSION['admin'])) : ?>
+                <a href="">admin login</a>
+                <a href="<?= BASE_PATH ?>logout" class="flex text-gray-600 hover:text-blue-500 cursor-pointer transition-colors duration-300" href="">
+
+
+                  Logout
+                </a>
+
+              <?php endif ?> 
