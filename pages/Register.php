@@ -1,6 +1,7 @@
 <?php
 include '../config/config.php';
 include '../partials/Header.php';
+// include '../config/register.php'
 ?>
 <!-- component -->
 <!-- Create by joker banny -->
@@ -26,7 +27,7 @@ include '../partials/Header.php';
     </div>
 
     <div class="mt-10">
-      <form action="config/register.php" method="post">
+      <form action="<?=BASE_PATH?>config/register.php" method="post">
         <div class="flex flex-col mb-5">
           <label for="text" class="mb-1 text-xs tracking-wide text-gray-600">Name:</label>
           <div class="relative">
@@ -44,7 +45,7 @@ include '../partials/Header.php';
               <i class="fas fa-user text-blue-500"></i>
             </div>
 
-            <input id="email" type="text" name="email" class="
+            <input id="username" type="text" name="username" class="
                     text-sm
                     placeholder-gray-500
                     pl-10

@@ -1,8 +1,8 @@
 <?php
 
 $hn = "localhost";
-$un = "root";
-$pw = "";
+$un = "my_clyde_admin2";
+$pw = "QwpddO9.1Oj0VjJU";
 $db = "theatre";
 
 $conn = new mysqli($hn, $un, $pw, $db);
