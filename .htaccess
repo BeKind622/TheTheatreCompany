@@ -20,8 +20,9 @@ RewriteEngine On
 RewriteRule ^welcome$ index.php [L]
 RewriteRule ^login$ pages/Login.php [L]
 RewriteRule ^adminlogin$ pages/AdminLogin.php [L]
-RewriteRule ^logout$ pages/Logout.php [L]
+RewriteRule ^logout$ config/logout.php [L]
 RewriteRule ^register$ pages/Register.php [L]
+RewriteRule ^blog$ pages/shared/Blog.php [L]
 
 # User Navigation
 RewriteRule ^s/dashboard$ pages/student/Dashboard.php [L]

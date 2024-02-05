@@ -9,7 +9,7 @@
     <div class="text-white">
       <div class="mb-8 flex flex-col items-center">
         <img src="https://www.logo.wine/a/logo/Instagram/Instagram-Glyph-Color-Logo.wine.svg" width="150" alt="" srcset="" />
-        <h1 class="mb-2 text-2xl">Student Login</h1>
+        <h1 class="mb-2 text-2xl">Login</h1>
         <span class="text-gray-300">Enter Login Details</span>
       </div>
 
