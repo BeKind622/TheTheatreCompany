@@ -24,6 +24,7 @@ RewriteRule ^logout$ config/logout.php [L]
 RewriteRule ^register$ pages/Register.php [L]
 RewriteRule ^blog$ pages/shared/Blog.php [L]
 
+
 # User Navigation
 RewriteRule ^s/dashboard$ pages/student/Dashboard.php [L]
 RewriteRule ^s/course$ pages/student/MyCourse.php [L]

@@ -125,7 +125,7 @@ $users->bind_result($userId, $userName, $userEmail, $userActive, $admin);
 
                                 <td>
                                     <div class="flex justify-end gap-4">
-                                        <a class="delete-id" href="#" onclick="window.location.href='deleteUser/<?= $userId ?>'">
+                                        <a class="delete-id" href="#" onclick="window.location.href='./config/deleteUser/<?= $userId ?>'">
                                             <button x-data="{ tooltip: 'Delete' }" class="delete-btn">
 
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6" x-tooltip="tooltip">

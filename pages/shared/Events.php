@@ -1,7 +1,8 @@
 <?php
+session_start();
 include '../../partials/header.php';
 include '../../config/config.php';
-//  include '../../queries/eventQuery.php';
+// include '../../queries/eventQuery.php';
 
 // $datetime = new DateTime($date);
 
