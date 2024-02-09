@@ -58,5 +58,5 @@
   </div>
 </div>
 </section>
-<?php include '../../../components/footer.php'; ?>
+<?php  include '../../../../partials/Footer.php';  ?>
 

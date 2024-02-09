@@ -114,5 +114,5 @@ $pendingComment->bind_result($commentID, $commentDetails, $commentHeading, $user
 </div>
 
 <?php 
-    include '../../../components/footer.php';
+     include '../../../../partials/Footer.php'; 
 ?>

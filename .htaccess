@@ -28,10 +28,18 @@ RewriteRule ^blog$ pages/shared/Blog.php [L]
 RewriteRule ^s/dashboard$ pages/student/Dashboard.php [L]
 RewriteRule ^s/course$ pages/student/MyCourse.php [L]
 RewriteRule ^s/account$ pages/student/MyDetails.php [L]
-
+RewriteRule ^u/dashboard$ account/dashboard/user/index.php [L]
+RewriteRule ^u/comments$ account/dashboard/user/userComments.php [L]
+RewriteRule ^u/account$ account/dashboard/user/account.php [L]
 
 # admin Navigation
 RewriteRule ^a/dashboard$ pages/admin/Dashboard.php [L]
+RewriteRule ^a/dashboard$ account/dashboard/admin/index.php [L]
+RewriteRule ^a/allUsers$ account/dashboard/admin/pages/user.php [L]
+RewriteRule ^a/addBlog$ account/dashboard/admin/pages/addBlog.php [L]
+RewriteRule ^a/pendingComments$ account/dashboard/admin/pages/pendingComments.php [L]
+RewriteRule ^a/commentDetails/([0-9]+)$ account/dashboard/admin/pages/commentDetails.php?cid=$1 [L]
+RewriteRule ^a/deleteUser/([0-9]+)$ account/dashboard/admin/components/deletePopup.php?uid=$1 [L]
 
 # shared
 RewriteRule ^events$ pages/shared/Events.php [L]

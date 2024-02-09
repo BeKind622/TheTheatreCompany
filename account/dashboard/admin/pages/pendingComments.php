@@ -72,5 +72,5 @@ $pendingComment->bind_result($commentID, $commentDetails,$heading, $username, $b
 
 <?php 
   
-    include '../../../../components/footer.php'; 
+    include '../../../../partials/Footer.php'; 
 ?>

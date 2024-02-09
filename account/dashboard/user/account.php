@@ -47,5 +47,5 @@
 <?php 
   unset($errorMsg);
 
-  include '../../../components/footer.php';
+  include '../../../partials/Footer.php';
 ?>
