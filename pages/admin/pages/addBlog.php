@@ -1,7 +1,6 @@
 <?php 
-    session_start();
-    include '../../../../components/header.php';
-    include '../../../../components/navigation.php'; 
+    include '../../../partials/Header.php';
+   
     // echo $_SESSION['id'];
 ?>
 <section class=" py-1 bg-blueGray-50">

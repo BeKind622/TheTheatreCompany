@@ -1,8 +1,7 @@
 <?php 
-  session_start(); 
-  include '../../../account/auth/dbConfig.php';
-  include '../../../components/header.php';
-  include '../../../components/navigation.php';
+  include '../../../account/auth/config.php';
+  include '../../../partials/Header.php';
+  
   $uid = $_SESSION['id'];
   $profileImg = $conn->prepare(" SELECT 
   img_path
@@ -17,7 +16,7 @@
 ?>
 <h1>accounts</h1>
 <div class="flex h-24 w-full justify-center">
-  <img src="<?= ROOT_DIR ?>account/dashboard/user/images/<?= $img_path ?>" alt="">
+  <img src="<?= BASE_PATH ?>account/dashboard/user/images/<?= $img_path ?>" alt="">
 </div>
  <!-- Display error message if it exists -->
  <?php if (!empty($errorMsg)) : ?>
