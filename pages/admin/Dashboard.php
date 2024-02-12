@@ -66,12 +66,12 @@ $users->bind_result($userId, $userName, $userEmail, $userActive, $admin);
                     <!-- <a class="block text-gray-500 py-2.5 px-4 my-4 rounded transition duration-200 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-cyan-300 hover:text-white" href="#">
                         <i class="fas fa-users mr-2"></i>Users
                     </a> -->
-                    <a class="block text-gray-500 py-2.5 px-4 my-4 rounded transition duration-200 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-cyan-300 hover:text-white" href="#">
+                    <!-- <a class="block text-gray-500 py-2.5 px-4 my-4 rounded transition duration-200 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-cyan-300 hover:text-white" href="#">
                         <i class="fas fa-store mr-2"></i>Shops
-                    </a>
-                    <a class="block text-gray-500 py-2.5 px-4 my-4 rounded transition duration-200 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-cyan-300 hover:text-white" href="#">
+                    </a> -->
+                    <!-- <a class="block text-gray-500 py-2.5 px-4 my-4 rounded transition duration-200 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-cyan-300 hover:text-white" href="#">
                         <i class="fas fa-exchange-alt mr-2"></i>Transactions
-                    </a>
+                    </a> -->
                 </nav>
 
                 <!-- Logout item -->

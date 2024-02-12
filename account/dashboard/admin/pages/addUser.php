@@ -1,5 +1,5 @@
 <?php 
-    session_start();
+    
     include '../../../../partials/Header.php';
 ?>
 <section class=" py-1 bg-blueGray-50">

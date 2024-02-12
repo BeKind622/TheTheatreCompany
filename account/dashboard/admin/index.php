@@ -1,8 +1,7 @@
-<?php session_start(); ?>
 
-<?php include '../../../components/header.php'; ?>
+
+<?php include '../../../partials/Header.php'; ?>
   
-  <?php include '../../../components/navigation.php'; ?>
   <div class="px-3 md:lg:xl:px-40   border-t border-b py-20 bg-opacity-10" style="background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/dot-grid.png') ;">
         <div onclick="window.location.href='pages/user.php';" class="grid grid-cols-1 md:lg:xl:grid-cols-3 group bg-purple-500 shadow-xl shadow-neutral-100 border ">
             <div
@@ -44,5 +43,5 @@
             </div>
           </div>
     </div>  
-  <?php include '../../../components/footer.php'; ?>
+  <?php include '../../../partials/Footer.php'; ?>
 

@@ -1,5 +1,5 @@
 <?php 
-    session_start();
+   
     include '../../../../partials/Header.php';
     // echo $_SESSION['id'];
 ?>

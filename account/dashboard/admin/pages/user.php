@@ -1,5 +1,4 @@
 <?php 
-    session_start(); 
     include '../../../auth/config.php';
     include '../../../../partials/Header.php';
 

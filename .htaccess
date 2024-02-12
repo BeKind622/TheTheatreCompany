@@ -25,9 +25,6 @@ RewriteRule ^register$ pages/Register.php [L]
 RewriteRule ^blog$ pages/blog/index.php [L]
 
 # User Navigation
-RewriteRule ^s/dashboard$ pages/student/Dashboard.php [L]
-RewriteRule ^s/course$ pages/student/MyCourse.php [L]
-RewriteRule ^s/account$ pages/student/MyDetails.php [L]
 RewriteRule ^u/dashboard$ account/dashboard/user/index.php [L]
 RewriteRule ^u/comments$ account/dashboard/user/userComments.php [L]
 RewriteRule ^u/account$ account/dashboard/user/account.php [L]
