@@ -1,8 +1,8 @@
 <?php 
     session_start();
-    include '../../../auth/dbConfig.php';
-    include '../../../../components/header.php';
-    include '../../../../components/navigation.php'; 
+    include '../../../auth/config.php';
+    include '../../../../partials/Header.php';
+  
 
     $pendingComment = $conn->prepare('SELECT 
     c.id,
@@ -46,7 +46,7 @@ $pendingComment->bind_result($commentID, $commentDetails,$heading, $username, $b
             <div class="sm:flex sm:items-center sm:justify-between sm:space-x-5">
               <div class="flex items-center flex-1 min-w-0">
                 <img
-                    src="<?=ROOT_DIR ?>assets/images/shows/<?= $blogImg ?>" class="flex-shrink-0 object-cover rounded-full btn- w-10 h-10"/>
+                    src="<?=BASE_PATH ?>assets/images/shows/<?= $blogImg ?>" class="flex-shrink-0 object-cover rounded-full btn- w-10 h-10"/>
                 <div class="mt-0 mr-0 mb-0 ml-4 flex-1 min-w-0">
                   <p class="text-lg font-bold text-gray-800 truncate"><?= $heading ?></p>
                   <p class="text-gray-600 text-md"><?= $username ?></p>

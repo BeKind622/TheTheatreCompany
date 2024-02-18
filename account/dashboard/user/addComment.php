@@ -1,7 +1,7 @@
 
  <?php
     session_start();
-     include '../../auth/dbConfig.php';
+     include '../../auth/config.php';
 
     $blogID = $_GET['blog_id'];
     $userID = $_SESSION['id'];

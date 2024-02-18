@@ -1,8 +1,8 @@
 <?php 
     session_start();
-    include '../../../auth/dbConfig.php';
-    include '../../../../components/header.php';
-    include '../../../../components/navigation.php';
+    include '../../../auth/config.php';
+    include '../../../../partials/Header.php';
+   
 
     $blogID = $_GET['blog_id'];
     // $userID = $_GET['user_id'];

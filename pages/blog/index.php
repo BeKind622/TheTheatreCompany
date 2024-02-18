@@ -85,7 +85,7 @@ echo $blogID;
           <div class="mt-3 flex items-end justify-between">
             <div class="flex items-center space-x-1.5 rounded-lg bg-purple-900 px-4 py-1.5 text-white duration-100 ">
 
-              <button onclick="window.location.href='blogDetails/<?= $blogID ?>';" class="text-sm bg-purple-900">READ MORE...</button>
+              <button onclick="window.location.href='<?= BASE_PATH ?>blogDetails/<?= $blogID?>'"  class="text-sm bg-purple-900">READ MORE...</button>
 
             </div>
 
@@ -112,5 +112,5 @@ echo $blogID;
 
 </section>
 <?php
-include '../../components/footer.php';
+include '../../partials/Footer.php';
 ?>
