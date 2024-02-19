@@ -1,6 +1,6 @@
 <?php
-session_start(); 
-include '../../../auth/dbConfig.php';
+// session_start(); 
+include '../../../auth/config.php';
 
 if (!isset($_SESSION['loggedin'])) {
     header('Location: ../../../../login/');

@@ -30,7 +30,7 @@ RewriteRule ^u/comments$ account/dashboard/user/userComments.php [L]
 RewriteRule ^u/account$ account/dashboard/user/index.php [L]
 
 # admin Navigation
-RewriteRule ^a/dashboard$ pages/admin/Dashboard.php [L]
+RewriteRule ^a/dashboard$ pages/admin/pages/user.php [L]
 RewriteRule ^a/dashboard$ account/dashboard/admin/index.php [L]
 RewriteRule ^a/allUsers$ account/dashboard/admin/pages/user.php [L]
 RewriteRule ^a/addBlog$ account/dashboard/admin/pages/addBlog.php [L]
@@ -40,7 +40,7 @@ RewriteRule ^a/deleteUser/([0-9]+)$ account/dashboard/admin/components/deletePop
 RewriteRule ^blogDetails/([0-9]+)$ pages/blog/details.php?blog_id=$1 [L]
 RewriteRule ^a/deactivateUser/([0-9]+)$ account/dashboard/admin/config/deactivateUser.php?uid=$1 [L]
 RewriteRule ^a/activateUser/([0-9]+)$ account/dashboard/admin/config/activateUser.php?uid=$1 [L]
-RewriteRule ^a/editUser/([0-9]+)$ account/dashboard/admin/config/activateUser.php?uid=$1 [L]
+RewriteRule ^a/editUser/([0-9]+)$ account/dashboard/admin/pages/editUser.php?uid=$1 [L]
 
 # shared
 RewriteRule ^events$ pages/shared/Events.php [L]

@@ -1,5 +1,5 @@
 <?php
-  include '../../../auth/dbConfig.php';
+  include '../../../auth/config.php';
 
 $cid = $_GET['cid'];
 $stmt = $conn->prepare('UPDATE comments c

@@ -2,8 +2,8 @@
 
 
 $hn = "localhost";
-$un = "my_clyde_admin2";
-$pw = "QwpddO9.1Oj0VjJU";
+$un = "root";
+$pw = "";
 $db = "theatre";
 
 // Create database connection

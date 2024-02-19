@@ -1,7 +1,7 @@
 
 <?php
-    session_start();
-     include '../../../auth/dbConfig.php';
+    // session_start();
+     include '../../../auth/config.php';
 
     $userID = $_SESSION['id'];
 

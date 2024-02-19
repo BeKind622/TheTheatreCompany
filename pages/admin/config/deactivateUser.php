@@ -1,6 +1,6 @@
 <?php
 session_start(); 
-include '../../../auth/dbConfig.php';
+include '../../../auth/config.php';
 
 
 // if (!isset($_SESSION['loggedin'])) {

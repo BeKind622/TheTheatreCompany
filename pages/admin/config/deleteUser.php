@@ -1,5 +1,5 @@
 <?php
-    include '../../../auth/dbConfig.php';
+    include '../../../auth/config.php';
 
     $userId = $_GET['uid'];
 

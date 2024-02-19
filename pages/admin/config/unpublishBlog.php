@@ -1,6 +1,6 @@
 <?php
 
-include '../../../auth/dbConfig.php';
+include '../../../auth/config.php';
 
 $bid = $_GET['bid'];
 $stmt = $conn->prepare('UPDATE blog b
